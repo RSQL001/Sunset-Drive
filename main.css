@@ -191,7 +191,7 @@ button.btn.btn-outline-dark {
 }
 
 .hero-bg {
-    background-image: url('./images/hero-bg.JPG');
+    background-image: url('./images/hero-bg.jpg');
     background-position: top;
     background-size: cover;
     height: 100vh;
