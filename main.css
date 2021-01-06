@@ -81,6 +81,7 @@ p {
 }*/
 
 button.btn.btn-outline-dark {
+    border: none;
     margin-left: 2em;
     padding-left: 2em;
     float: right;
@@ -658,7 +659,7 @@ button.btn.btn-outline-dark {
 }
 
 #footer-top {
-    padding: 2em 15em;
+    padding: 4em 15em;
     color: white;
 }
 
