@@ -32,17 +32,20 @@
                                     <div class="collapse navbar-collapse" id="navbarNav">
                                       <ul class="navbar-nav ml-auto">
                                         <li class="nav-item active">
-                                          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                                          <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                          <a class="nav-link" href="#">Our Services</a>
+                                          <a class="nav-link" href="#services">Our Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">About Us</a>
+                                            <a class="nav-link" href="#partners">About Us</a>
                                         </li>
                                       </ul>
                                       <form class="form-inline" id="form-inline">
-                                        <button type="button" class="btn btn-outline-dark">Contact Us</button>
+                                        <a href="#partners">
+                                          <button type="button" class="btn btn-outline-dark">Contact Us</button>
+                                        </a>
+                                        
                                       </form>
                                     </div>
                                     
@@ -52,19 +55,19 @@
                         
 
                         <!--Hero bg-->
-                          <div class="hero-bg">
+                          <div class="hero-bg" id="home">
                             <div class="hero-box">
                               <div class="mobile px-0">
-                                <div class="btn-1">
-                                  <button type="button" class="btn btn-outline-dark" id="book">Book Now</button>
-                                </div>
+                                
                               </div>
                               <h6>We are an outdoor catering & entertainment services provider with a history of hosting some of Abuja's most Unique Events</h6>
                               
                                 <div class="play-box">
                                   <div class="desktop px-0"> 
                                     <div class="btn-1">
+                                      <a href="#partners">
                                       <button type="button" class="btn btn-outline-dark" id="book">Book Now</button>
+                                    </a>
                                     </div>
                                   </div>
                                   
@@ -112,10 +115,13 @@
 
 
           <div class="mobile px-0">
-            <img src="./images/services-1.JPG" class="img-fluid" id="mobile" alt="">
+            <div data-aos="fade-in">
+              <img src="./images/services-1.JPG" class="img-fluid" id="mobile" alt="">
+            </div>
           </div>
+
           <h3>Outdoor <span>Entertainment</span></h3>
-          <p>Our brand new digital projection system is state-of-the-art and produces the sharpest, brightest pictures. The better picture combined with our powerful surround surround subwofer create a magical atmosphere. It’s an experience so real, you’ll feel like you’re right in the middle of the action.</p>
+          <p>Our brand new digital projection system is state-of-the-art and produces the sharpest, brightest pictures. The better picture combined with our powerful surround sound create a magical atmosphere. It’s an experience so real, you’ll feel like you’re right in the middle of the action.</p>
         </div>
       </div>
       <div class="desktop col-7 px-0"> 
@@ -131,12 +137,17 @@
             </div>
             <div class="col-lg-5 col-md-5 col-sm-12" id="services-2a">
               <div class="textbox">
+
+                
+                <div data-aos="fade-in">
                 <div class="mobile px-0">
                   <img src="./images/services-2.png" class="img-fluid" id="mobile" alt="">
                 </div>
+              </div>
+
                 <h3>Choose From A Wide Selection of Blockbuster Movies</h3>
                 <p>Select your choice of movies from prominent Hollywood and independent studios and distributors from around the world. With over 13,000 titles available, we offer a wide range of non-theatrical licenses for film screenings and viewings outside the home or cinema.</p>
-                <button type="submit" class="btn btn-primary" id="service-btn">View Collection</button>
+                <!-- <button type="submit" class="btn btn-primary" id="service-btn">View Collection</button> -->
               </div>
             </div>
           </div>
@@ -146,9 +157,13 @@
           <div id="row" class="lastrow">
             <div class="col-lg-5 col-md-5 col-sm-12" id="services-3a">
               <div class="textbox">
+
+                  <div data-aos="fade-in">
                 <div class="mobile px-0">
                   <img src="./images/services-3.JPG" class="img-fluid" id="mobile" alt="">
                 </div>
+              </div>
+
                 <h3><span>Fun Games</span> & Outdoor Activities</h3>
                 <p>Because of the variety of fun activities you can participate in, there's never a dull moment at any of our screenings. Arrive early and play table tennis, pick out your choice from numerous board games or challenge your friends to a Karaoke match. Get in the right mood before the start of your movie!  </p>
               </div>
@@ -163,7 +178,6 @@
         <!--Services End-->
     </div>
 
-    
     <div class="hero-one" id="hero1">
       <div class="row" id="background">
         <div class="inquiries">
@@ -171,8 +185,9 @@
             <h1>Inquiries?</h1>
           <h6>If you’re looking for a truly exceptional outdoor experience, feel free to contact us today!</h6>
           </div>
-          
+          <a href="#partners">
           <button type="submit" class="btn btn-primary" id="inquiries-btn">Make a Booking</button>
+        </a>
         </div>
     
       </div>
@@ -186,7 +201,7 @@
         <div class="dot">
           <h4>.</h4>
         </div>
-      <h6>Sit back, relax and enjoy the amazing and awesome experience of a modern movie theatre. You won’t believe your eyes.!</h6>
+      <h6>Sit back, relax and enjoy the amazing and awesome experience of a modern movie theatre. You won’t believe your eyes!!</h6>
       </div>
       
   
@@ -195,12 +210,16 @@
         <div id="row">
           <div class="col-lg-5 col-md-5 col-sm-12" id="services-4a">
             <div class="textbox">
-              <div class="mobile px-0"> 
-                <img src="./images/services-4.JPG" class="img-fluid" alt="">
+
+              <div data-aos="fade-in">
+                <div class="mobile px-0" id="mobile"> 
+                  <img src="./images/services-4.jpg" class="img-fluid" alt="">
+                </div>
               </div>
-             <h3>Mobile Cinema</h3>
+
+             <h3>Mobile Cinema & Private Screenings</h3>
              <p>Don't feel like going out? We'll bring the party to you. Our Mobile Cinema package allows us to setup our projector & moveable screens at any location of your choice. We've hosted children's birthday celebrations, adult themed parties & many more exotic social events.</p>
-             <button type="submit" class="btn btn-primary" id="service-btn">Read More</button>
+             <!-- <button type="submit" class="btn btn-primary" id="service-btn">Read More</button> -->
            </div>
           </div>
 
@@ -211,18 +230,18 @@
        
       </div>
         
-<div class="partners">
+<div class="partners" id="partners">
   <h1>Our Partners</h1>
-  <div class="mobile px-0"> 
+  <div class="mobile px-0" id="mobile"> 
   <div class="container">
     <div class="row" id="partners">
       
-        <div class="col-6"><img src="./images/pat-1.png" class="img-fluid" alt=""></div>
-          <div class="col-6"><img src="./images/pat-2.png" class="img-fluid" alt=""></div>
-          <div class="col-6"><img src="./images/pat-3.png" class="img-fluid" alt=""></div>
-          <div class="col-6"><img src="./images/pat-4.png" class="img-fluid" alt=""></div>
-          <div class="col-6"><img src="./images/pat-5.png" class="img-fluid" alt=""></div>
-          <div class="col-6"><img src="./images/pat-6.png" class="img-fluid" alt=""></div>
+        <div class="col-4"><img src="./images/pat-1.png" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./images/pat-2.png" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./images/pat-3.png" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./images/pat-4.png" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./images/pat-5.png" class="img-fluid" alt=""></div>
+          <div class="col-4"><img src="./images/pat-6.png" class="img-fluid" alt=""></div>
 
       </div>
     </div>
@@ -248,6 +267,60 @@
 
 <footer>
   <div class="footer-top">
+
+    <div class="container-fluid mobile" id="mobile">
+      <div class="row" id="footer-top">
+        
+        <div class="col-md-2 col-sm-6 col-xs-12 segement-two"  id="links">
+          <h2>Quick links</h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#partners">About Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12 segement-four" id="form-footer">
+          <h6>Start planning your next Event, fill in your contact details.</h6>
+      <form>
+        <div class="form-group">
+          <input type="phone" class="form-control" id="Inputphone" aria-describedby="phoneHelp" placeholder="Enter your phone number">
+        </div>
+        <button type="#pa" class="btn btn-primary" id="footerbtn">Sign Up Now</button>
+      </form>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12 segement-one">
+          <div class="logobox">
+            <img src="./images/logo2.png" id="img-logo" alt="">
+          </div>
+          <div class="social-media">
+            <ul>
+              <a href="https://web.facebook.com/sunsetdriveng/?_rdc=1&_rdr">
+                <li><i class="fab fa-facebook-f"></i></li>
+              </a>
+              <a href="https://twitter.com/sunsetdriveng?lang=en">
+                <li><i class="fab fa-twitter"></i></li>
+              </a>
+              <a href="https://www.instagram.com/sunsetdriveng/?hl=en">
+                <li><i class="fab fa-instagram"></i></li>
+              </a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12 segement-three" id="mobile-segement">
+          <h2>Contact Us</h2>
+          <ul>
+            <li><a href=""></a>(+234) 803 7926 333</li>
+            <li><a href=""></a>info@sunsetdrive.ng</li>
+            <li><a href=""></a>12 Ukpabi Asika St. Asokoro</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
     <div class="container-fluid desktop">
       <div class="row" id="footer-top">
         <div class="col-md-3 col-sm-6 col-xs-12 segement-one">
@@ -256,18 +329,24 @@
           </div>
           <div class="social-media">
             <ul>
-              <li><i class="fab fa-facebook-f"></i></li>
-              <li><i class="fab fa-twitter"></i></li>
-              <li><i class="fab fa-instagram"></i></li>
+              <a href="https://web.facebook.com/sunsetdriveng/?_rdc=1&_rdr">
+                <li><i class="fab fa-facebook-f"></i></li>
+              </a>
+              <a href="https://twitter.com/sunsetdriveng?lang=en">
+                <li><i class="fab fa-twitter"></i></li>
+              </a>
+              <a href="https://www.instagram.com/sunsetdriveng/?hl=en">
+                <li><i class="fab fa-instagram"></i></li>
+              </a>
             </ul>
           </div>
         </div>
         <div class="col-md-2 col-sm-6 col-xs-12 segement-two">
           <h2>Quick links</h2>
           <ul>
-            <li><a href="">Services</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#partners">About Us</a></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12 segement-three">
@@ -290,59 +369,7 @@
       </div>
     </div>
 
-      <div class="container-fluid mobile">
-        <div class="row" id="footer-top">
-          
-          <div class="col-md-2 col-sm-6 col-xs-12 segement-two">
-            <h2>Quick links</h2>
-            <ul>
-              <li><a href="">Services</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12 segement-three" id="mobile-segement">
-            <h2>Contact Us</h2>
-            <ul>
-              <li><a href=""></a>(+234) 803 7926 333</li>
-              <li><a href=""></a>info@sunsetdrive.ng</li>
-              <li><a href=""></a>12 Ukpabi Asika St. Asokoro</li>
-            </ul>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 segement-one">
-            <div class="logobox">
-              <img src="./images/logo2.png" id="img-logo" alt="">
-            </div>
-            <div class="social-media">
-              <ul>
-                <a href="https://web.facebook.com/sunsetdriveng/?_rdc=1&_rdr">
-                  <li><i class="fab fa-facebook-f"></i></li>
-                </a>
-                <a href="https://twitter.com/sunsetdriveng?lang=en">
-                  <li><i class="fab fa-twitter"></i></li>
-                </a>
-                <a href="https://www.instagram.com/sunsetdriveng/?hl=en">
-                  <li><i class="fab fa-instagram"></i></li>
-                </a>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12 segement-four">
-            <h6>Start planning your next Event, fill in your contact details.</h6>
-        <form>
-          <div class="form-group">
-            <input type="phone" class="form-control" id="Inputphone" aria-describedby="phoneHelp" placeholder="Enter your phone number">
-          </div>
-          <button type="submit" class="btn btn-primary" id="footerbtn">Sign Up Now</button>
-        </form>
-          </div>
-
-          
-
-        </div>
-      </div>
+      
 
     
     
